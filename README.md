@@ -17,6 +17,9 @@ The called function is the following, CustomLog('log_file', 'log_level', 'log_te
 
 Furthermore, in the configuration it is possible to choose the type of file, whether daily or common:
 
-![image](https://github.com/fabydag19/python_custom_logging/assets/62938446/f2d5a6ad-4439-4acd-a993-ab181d02c3da)
+```python
+handler = logging.FileHandler(f'{log_file}_.log') # Common log file
+handler = logging.FileHandler(datetime.now().strftime(f'{log_file}_%d_%m_%Y.log')) # Single day log file
+```
 
-REMEMBER: one of this must be commented
+(REMEMBER: one of this must be commented)
