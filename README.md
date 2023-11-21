@@ -15,7 +15,13 @@ The called function is the following, CustomLog('log_file', 'log_level', 'log_te
     * (It doesn't matter if you write in uppercase or lowercase: 'info' or 'INFO')
 * log_text: is the message of the log.
 
-![test](https://github.com/fabydag19/python_custom_logging/assets/62938446/23871b4f-1ca2-427e-a37a-269b1fd24107)
+```bash
+2023-11-21 10:34:27.791 - DEBUG - This is an example log
+2023-11-21 10:34:27.791 - INFO - This is an example log
+2023-11-21 10:34:27.792 - WARNING - This is an example log
+2023-11-21 10:34:27.792 - CRITICAL - This is an example log
+2023-11-21 10:34:27.792 - ERROR - This is an example log
+```
 
 Furthermore, in the configuration it is possible to choose the type of file, whether daily or common:
 
