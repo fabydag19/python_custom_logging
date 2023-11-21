@@ -15,7 +15,7 @@ The called function is the following, CustomLog('log_file', 'log_level', 'log_te
     * (It doesn't matter if you write in uppercase or lowercase: 'info' or 'INFO')
 * log_text: is the message of the log.
 
-![image](https://github.com/fabydag19/python_custom_logging/assets/62938446/f99c04ab-05ca-4f66-827d-506ccf9e7022)
+![test](https://github.com/fabydag19/python_custom_logging/assets/62938446/23871b4f-1ca2-427e-a37a-269b1fd24107)
 
 Furthermore, in the configuration it is possible to choose the type of file, whether daily or common:
 
