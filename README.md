@@ -7,11 +7,11 @@ This is a simple customization of logging library. It's possible use this in two
 The called function is the following, CustomLog('log_file', 'log_level', 'log_text'), where:
 * log_file: is the log file name;
 * log_level: is the log level, and can be:
-    * debug
-    * info
-    * warning
-    * critical
-    * error
+  * debug
+  * info
+  * warning
+  * critical
+  * error
 
 (It doesn't matter if you write in uppercase or lowercase: 'info' or 'INFO')
 * log_text: is the message of the log.
