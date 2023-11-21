@@ -19,7 +19,7 @@ Furthermore, in the configuration it is possible to choose the type of file, whe
 
 ```python
 handler = logging.FileHandler(f'{log_file}_.log') # Common log file
-handler = logging.FileHandler(datetime.now().strftime(f'{log_file}_%d_%m_%Y.log')) # Single day log file
+handler = logging.FileHandler(datetime.now().strftime(f'{log_file}_%Y%m%d.log')) # Single day log file
 ```
 
 (REMEMBER: one of this must be commented)
