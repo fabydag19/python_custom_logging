@@ -12,7 +12,7 @@ The called function is the following, CustomLog('log_file', 'log_level', 'log_te
     * warning
     * critical
     * error
-    * (It doesn't matter if you write in uppercase or lowercase: 'info' or 'INFO')
+(It doesn't matter if you write in uppercase or lowercase: 'info' or 'INFO')
 * log_text: is the message of the log.
 
 ```bash
