@@ -8,7 +8,7 @@ def CustomLog(log_file, log_level, log_text):
     if not logger.handlers:
         logger.setLevel(logging.DEBUG) # Set min threshold log level
         handler = logging.FileHandler(f'{log_file}_.log') # Common log file
-        handler = logging.FileHandler(datetime.now().strftime(f'{log_file}_%d_%m_%Y.log')) # Single day log file
+        handler = logging.FileHandler(datetime.now().strftime(f'{log_file}_%Y%m%d.log')) # Single day log file
         formatter = logging.Formatter(fmt='%(asctime)s.%(msecs)03d - %(levelname)s - %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
         handler.setFormatter(formatter)
         logger.addHandler(handler)
